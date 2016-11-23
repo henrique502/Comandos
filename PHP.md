@@ -1,6 +1,5 @@
-sudo apt-get update
-sudo apt-get install -y python-software-properties
-sudo add-apt-repository ppa:ondrej/php5
+### Install PHP 7
+```
 sudo apt-get update
 sudo apt-get install -y ghostscript
 sudo apt-get install -y imagemagick
@@ -13,26 +12,36 @@ sudo apt-get install -y php-curl
 sudo apt-get install -y php-imagick
 sudo apt-get install -y php-mcrypt
 sudo apt-get install -y php-mbstring
- 
- 
+```
+### Add ubuntu to www dir
+```
 sudo adduser ubuntu www-data
 sudo chown -R www-data:www-data /var/www
 sudo chmod -R g+rwX /var/www
- 
+```
+### Upload php chmod
+```
 chmod 755 -R uploads/
- 
+```
+### Enable rewrite apache
+```
 sudo a2enmod rewrite
 sudo /etc/init.d/apache2 restart
- 
-https://www.digitalocean.com/community/tutorials/como-configurar-apache-virtual-hosts-no-ubuntu-14-04-lts-pt
- 
-// Add site
+```
+### Add site
+```
 a2ensite ajudai.test.4all.com.conf
-// Remove site
+```
+### Remove site
+```
 a2dissite 000-default.conf
- 
+```
+### Site conf location
+```
 /etc/apache2/sites-available/example.com.conf
- 
+```
+### Conf exemple
+```
 <VirtualHost *:80>
     ServerAdmin admin@example.com
     ServerName example.com
@@ -44,3 +53,4 @@ a2dissite 000-default.conf
         AllowOverride All
     </Directory>
 </VirtualHost>
+```
