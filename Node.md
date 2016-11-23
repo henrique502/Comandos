@@ -6,7 +6,7 @@ sudo setcap cap_net_bind_service=+ep /usr/bin/nodejs
 ```
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 ```
-### PM2 comandos
+### [PM2](http://pm2.keymetrics.io/docs/usage/cluster-mode/) comandos
 ```
 pm2 logs 4park [--lines 1000]
 ```
