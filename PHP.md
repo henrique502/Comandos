@@ -28,6 +28,25 @@ chmod 755 -R uploads/
 sudo a2enmod rewrite
 sudo /etc/init.d/apache2 restart
 ```
+### /etc/apache2/apache2.conf:
+```
+<Directory />
+    Options FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+
+<Directory /usr/share>
+    AllowOverride All
+    Require all granted
+</Directory>
+
+<Directory /var/www/>
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+```
 ### Add site
 ```
 a2ensite ajudai.test.4all.com.conf
