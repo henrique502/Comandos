@@ -13,6 +13,10 @@ sudo apt-get install -y php-imagick
 sudo apt-get install -y php-mcrypt
 sudo apt-get install -y php-mbstring
 ```
+```
+sudo apt-get install php7.0-dev
+https://github.com/phpv8/v8js/blob/master/README.Linux.md
+```
 ### Add ubuntu to www dir
 ```
 sudo adduser ubuntu www-data
