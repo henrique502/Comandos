@@ -1,0 +1,14 @@
+* https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
+* https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
+* https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+* https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion
+* https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons
+* https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets
+* https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script
+* https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+* https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark
+* https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
+* https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager
+* https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint
+* https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer
+* https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-less
