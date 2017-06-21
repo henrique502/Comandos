@@ -13,3 +13,7 @@ pm2 logs 4park [--lines 1000]
 ```
 pm2 start index.js -i 2 --name '4park'
 ```
+Show only erros
+```
+pm2 logs ERR --lines 0
+```
