@@ -12,3 +12,4 @@
 * https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint
 * https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer
 * https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-less
+* https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case
