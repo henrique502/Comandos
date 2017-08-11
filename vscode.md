@@ -13,3 +13,7 @@
 * https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-autoprefixer
 * https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-less
 * https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case
+* https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame
+* https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+* https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer
+* https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight
