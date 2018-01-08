@@ -6,7 +6,7 @@
 * https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets
 * https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script
 * https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-* https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark
+* https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onelight
 * https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
 * https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager
 * https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint
