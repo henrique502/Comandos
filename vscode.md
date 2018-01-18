@@ -17,3 +17,4 @@
 * https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
 * https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer
 * https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight
+* https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
