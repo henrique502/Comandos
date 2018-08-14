@@ -34,4 +34,30 @@
     </CORSRule>
 </CORSConfiguration>
 ```
+## IP Restrict
 
+```JSON
+{
+    "Version": "2008-10-17",
+    "Id": "S3PolicyId1",
+    "Statement": [
+        {
+            "Sid": "IPAllow",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "*"
+            },
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::name/*",
+            "Condition": {
+                "IpAddress": {
+                    "aws:SourceIp": [
+                        "168.196.180.26/32",
+                        "192.168.54.0/23"
+                    ]
+                }
+            }
+        }
+    ]
+}
+```
