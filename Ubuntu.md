@@ -64,3 +64,17 @@ chmod +x ~/.local/share/applications/opt_eclipse.desktop
 ```
 
 Finally drop `opt_eclipse.desktop` to launcher.
+
+## Telcado US
+
+Abra o terminal e edite o arquivo: 
+
+```sh
+vim ~/.bashrc 
+```
+
+Na última linha adicione: 
+
+```sh
+setxkbmap -model pc104 -layout us_intl
+```
