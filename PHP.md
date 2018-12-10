@@ -77,3 +77,11 @@ a2dissite 000-default.conf
     </Directory>
 </VirtualHost>
 ```
+
+### .htaccess
+
+```
+<IfModule mod_setenvif.c>
+  SetEnvIf X-Forwarded-Proto "^https$" HTTPS
+</IfModule>
+```
