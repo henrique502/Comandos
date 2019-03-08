@@ -8,6 +8,13 @@ sudo docker load --input android-gitlab-ci-v1.0.2.tar
 ```
 
 ### Remover todos containers
+
 ```shell
 sudo docker rm $(docker ps -a -q)
+```
+
+### Limpa disco
+
+```shell
+0 3 * * * /usr/bin/docker system prune -f
 ```
