@@ -16,5 +16,5 @@ sudo docker rm $(docker ps -a -q)
 ### Limpa disco
 
 ```shell
-0 3 * * * /usr/bin/docker system prune -f
+0 5 * * * root /usr/bin/docker system prune --all --volumes --force >/dev/null
 ```
