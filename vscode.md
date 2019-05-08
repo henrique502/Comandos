@@ -1,14 +1,43 @@
-* https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
-* https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
-* https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
-* https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons
-* https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-* https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onelight
-* https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
-* https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager
-* https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-less
-* https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case
-* https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
-* https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer
-* https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight
-* https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
+# Configuraçes
+
+```
+javascript.implicitProjectConfig.checkJs
+```
+
+# Plugins
+
+```
+auto-close-tag
+beautify
+change-case
+code-runner
+code-settings-sync
+debugger-for-chrome
+EditorConfig
+gitblame
+Go
+indent-rainbow
+java
+JavaScriptSnippets
+LogFileHighlighter
+project-manager
+propertylist
+rainbow-csv
+swagger-viewer
+tslint
+vscode-docker
+vscode-eslint
+vscode-icons
+vscode-import-cost
+vscode-java-debug
+vscode-java-dependency
+vscode-java-pack
+vscode-java-test
+vscode-less
+vscode-markdownlint
+vscode-maven
+vscode-svgviewer
+vscode-todo-highlight
+vscodeintellicode
+yithemes
+```
