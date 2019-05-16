@@ -1,0 +1,12 @@
+version: '3'
+services:
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.0.1
+    container_name: kibana
+    user: kibana
+    restart: unless-stopped
+    volumes:
+      - /home/henrique/.kibana/kibana.yml:/usr/share/kibana/config/kibana.yml
+    ports:
+      - 8000:5601
+    network_mode: "bridge"
