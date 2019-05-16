@@ -1,0 +1,13 @@
+version: '3'
+services:
+  redis-server:
+    image: redis:5-alpine
+    container_name: redis-server
+    user: redis-server
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - /home/henrique/.redis:/data
+    ports:
+      - 6379:6379
+    network_mode: "bridge"
