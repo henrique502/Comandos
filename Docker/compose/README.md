@@ -19,15 +19,6 @@ sudo docker rm $(docker ps -a -q)
 0 5 * * * root /usr/bin/docker system prune --all --volumes --force >/dev/null
 ```
 
-### Postgres
-
-[Referência](https://medium.com/@renato.groffe/postgresql-docker-executando-uma-inst%C3%A2ncia-e-o-pgadmin-4-a-partir-de-containers-ad783e85b1a4)
-
-```shell
-sudo docker network create --driver bridge postgres-network
-docker run --name local-postgres --network=postgres-network -e "POSTGRES_PASSWORD=root" -p 5432:5432 -v /home/{USER}/.PostgreSQL:/var/lib/postgresql/data -d postgres
-```
-
 ### Restart Docker
 
 ```shell
