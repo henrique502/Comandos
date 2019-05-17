@@ -24,3 +24,7 @@ sudo docker rm $(docker ps -a -q)
 ```shell
 sudo systemctl restart docker
 ```
+
+### Docker Memory
+
+https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html
