@@ -21,3 +21,13 @@ services:
     network_mode: "bridge"
     environment: 
       - discovery.type=single-node
+  apm-server:
+    image: docker.elastic.co/apm/apm-server:7.0.1
+    container_name: apm-server
+    user: apm-server
+    restart: unless-stopped
+    ports:
+      - 8200:8200
+    network_mode: "bridge"
+    links:
+      - elasticsearch
