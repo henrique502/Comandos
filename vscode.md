@@ -12,7 +12,6 @@ beautify
 change-case
 code-runner
 code-settings-sync
-debugger-for-chrome
 EditorConfig
 gitblame
 Go
@@ -40,4 +39,5 @@ vscode-svgviewer
 vscode-todo-highlight
 vscodeintellicode
 yithemes
+mauve.terraform
 ```
