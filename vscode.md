@@ -17,7 +17,7 @@ gitblame
 Go
 indent-rainbow
 java
-JavaScriptSnippets
+ext install xabikos.JavaScriptSnippets
 LogFileHighlighter
 project-manager
 propertylist
