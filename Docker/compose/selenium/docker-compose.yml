@@ -1,0 +1,28 @@
+version: '3'
+services:
+  firefox:
+    image: selenium/node-firefox
+    container_name: firefox
+    restart: unless-stopped
+    volumes:
+      - /dev/shm:/dev/shm
+    depends_on:
+      - hub
+    environment:
+      HUB_HOST: hub
+  chrome:
+    image: selenium/node-chrome
+    container_name: chrome
+    restart: unless-stopped
+    volumes:
+      - /dev/shm:/dev/shm
+    depends_on:
+      - hub
+    environment:
+      HUB_HOST: hub
+  hub:
+    image: selenium/hub
+    container_name: selenium
+    restart: unless-stopped
+    ports:
+      - "4444:4444"
