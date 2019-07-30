@@ -40,4 +40,5 @@ vscode-todo-highlight
 vscodeintellicode
 yithemes
 mauve.terraform
+prettier
 ```
