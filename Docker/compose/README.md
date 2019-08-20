@@ -28,3 +28,15 @@ sudo systemctl restart docker
 ### Docker Memory
 
 https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html
+
+### Docker Volume
+
+```shell
+docker volume create grafana-storage
+docker volume create pg-storage
+docker volume create mysql5-storage
+docker volume create mysql8-storage
+docker volume create mongo-storage
+docker volume create rabbitmq-storage
+docker volume create redis-storage
+```
