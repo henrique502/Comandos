@@ -7,7 +7,9 @@ services:
     restart: unless-stopped
     command: ["redis-server", "--appendonly", "yes"]
     volumes:
-      - /home/henrique/.redis:/data
+      - redis-storage:/data
     ports:
       - 6379:6379
     network_mode: "bridge"
+volumes:
+  redis-storage:

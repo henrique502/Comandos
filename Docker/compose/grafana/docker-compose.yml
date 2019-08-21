@@ -7,6 +7,8 @@ services:
     environment:
       GF_SECURITY_ADMIN_PASSWORD: root
     ports:
-      - 4100:3000
+      - 7020:3000
     volumes:
-      - /home/henrique/.grafana:/var/lib/grafana
+      - grafana-storage:/var/lib/grafana
+volumes:
+  grafana-storage:

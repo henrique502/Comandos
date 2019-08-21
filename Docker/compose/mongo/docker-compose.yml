@@ -8,7 +8,9 @@ services:
       - 27017:27017
     network_mode: "bridge"
     volumes:
-      - /home/henrique/.mongodb:/data/db
+      - mongo-storage:/data/db
     environment:
       - MONGO_INITDB_ROOT_USERNAME=root
       - MONGO_INITDB_ROOT_PASSWORD=root
+volumes:
+  mongo-storage:

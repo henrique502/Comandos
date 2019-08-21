@@ -8,9 +8,10 @@ services:
       - "7010:15672"
       - "7000:5672"
     volumes:
-      - /home/henrique/.rabbitmq:/var/lib/rabbitmq
+      - rabbitmq-storage:/var/lib/rabbitmq
     environment:
       - RABBITMQ_DEFAULT_USER=admin
       - RABBITMQ_DEFAULT_PASS=admin
       - RABBITMQ_ERLANG_COOKIE="MY-SECRET-KEY-123"
-
+volumes:
+  rabbitmq-storage:
