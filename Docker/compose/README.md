@@ -39,4 +39,5 @@ docker volume create mysql8-storage
 docker volume create mongo-storage
 docker volume create rabbitmq-storage
 docker volume create redis-storage
+docker volume create sonarqube-storage
 ```

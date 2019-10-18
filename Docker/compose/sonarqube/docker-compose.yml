@@ -1,0 +1,16 @@
+version: '3'
+services:
+  sonarqube:
+    image: sonarqube:lts-alpine
+    container_name: sonarqube
+    restart: unless-stopped
+    stop_grace_period: 1m
+    ports:
+      - 8110:9000
+    volumes:
+      - sonarqube-storage:/opt/sonarqube/conf
+      - sonarqube-storage:/opt/sonarqube/data
+      - sonarqube-storage:/opt/sonarqube/logs
+      - sonarqube-storage:/opt/sonarqube/extensions
+volumes:
+  sonarqube-storage:
