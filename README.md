@@ -2,6 +2,16 @@
 Comandos Ubuntu
 
 
+## MySQL
+
+```
+mysql-connector allowPublicKeyRetrieval=true
+```
+
+```
+mysqldump --column-statistics=0
+```
+
 ## Fix Webpack Ubuntu
 
 ```sh
