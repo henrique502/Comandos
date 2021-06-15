@@ -1,11 +1,12 @@
 [Unit]
-Description=Service Webserver
-After=mysqld.service
-Requires=mysqld.service
+Description=App Webserver
+After=mysql.service
+Requires=mysql.service
 
 [Service]
-ExecStart=/usr/bin/java -Dlogging.path=/home/service/logs -Dlogging.level.org.springframework=ERROR -jar /home/service/app.jar
-User=service
+ExecStart=/usr/bin/java -Dlogging.file.path=/home/App/logs -Dspring.jpa.show-sql=false -Dlogging.level.org.springframework=ERROR -Dlogging.file=true -jar /home/App/app.jar
+User=App
+WorkingDirectory=/home/App
 
 [Install]
 WantedBy=multi-user.target
